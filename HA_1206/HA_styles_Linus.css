@@ -1,0 +1,22 @@
+body
+{
+    background-color: green;
+}
+
+h2
+{
+    color:red;
+    font-family: Verdana;
+}
+
+p
+{
+    font-family: Verdana;
+    overflow-wrap: break-word;
+}
+
+#p1
+{
+    display: inline-block;
+    border: 1px solid black;
+}
