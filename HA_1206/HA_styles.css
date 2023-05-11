@@ -1,3 +1,8 @@
+body
+{
+    background-color: aqua;
+}
+
 h2
 {
     color:red;
@@ -7,4 +12,11 @@ h2
 p
 {
     font-family: Verdana;
+    overflow-wrap: break-word;
+}
+
+#p1
+{
+    display: inline-block;
+    border: 1px solid black;
 }
