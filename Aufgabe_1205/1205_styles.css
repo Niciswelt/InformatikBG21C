@@ -1,0 +1,21 @@
+h1
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+th
+{
+    color: blue;
+    background-color: rgb(190, 190, 190);
+}
+
+td
+{
+    background-color: lightblue;
+}
+
+#t1
+{
+    font-weight: bold;
+}
