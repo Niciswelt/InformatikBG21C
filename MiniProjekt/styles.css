@@ -1,0 +1,20 @@
+body
+{
+    background-image: linear-gradient(lightblue,white); 
+    min-height: 100vh;
+
+} /*body tag eigentlich nicht benötigt, finds aber schöner.*/
+img
+{
+    max-width: 100%;
+    height: auto;
+} /*Stellt ein, dass das Bild immer so breit wie bei 16:9 möglich ist sein soll und dass die Höhe von der Tab größe abhängig ist.
+    Ergo, wenn der Tab größer wird, zb. Vollbild, steigt der Höhenwert und somit auch die Breite, da sie immer 100% bei 16:9 sein soll. */
+
+.top10Bildunterschriften
+{
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana;
+} /*Die Bildunterschriftt, in der Mitte, kursiv und in der Schriftart Verdana. 
+    Dass sie unter dem Bild ist, macht "figcaption" in html bereits.*/
