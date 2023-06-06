@@ -1,0 +1,29 @@
+body
+{
+    background-image: linear-gradient(lightblue,white); 
+    min-height: 100vh;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .Bildunterschrift
+  {
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana;
+  }
+
+.gallerie 
+{
+    display: flex;
+}
+  
+.gallerie figure
+{
+    margin: 10px;
+    text-align: center;
+}
