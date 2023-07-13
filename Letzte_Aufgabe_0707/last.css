@@ -28,17 +28,22 @@ html, body {
     padding: 5px;
     background-color: white;
     text-align: center;
+    color:black;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 94%;
   }
   
   ul li:hover {
-    background-color: rgb(3, 74, 101);
+    background-color: rgb(12, 151, 68);
     color: white;
-  }
-  
+  }  
+
   h1 {
     text-align: left;
     font-family: Verdana;
-    margin-left: 190px;
+    margin-left: 200px;
   }
   
   #mitte {
@@ -49,13 +54,12 @@ html, body {
   nav {
       flex:1; 
       margin-top: 15px;
+      text-decoration: none;
   }
   
   main {
       flex:5; 
       display:flex; 
-      /*justify-content:center;*/
-      align-items: flex-start; 
       order:2; 
   }
   
@@ -73,7 +77,6 @@ html, body {
   a:first-of-type {margin-top:0;}
   
   #wrap {
-      /*max-width:660px;*/ 
       height:100vh; 
       margin:auto; 
   }
@@ -82,84 +85,3 @@ html, body {
     width: 100%;
     height: auto;
   }
-  
-  
-
-
-/*body
-{
-  display: flex;
-  flex-flow: column;
-  line-height: 1.5em;
-}
-
-figure {
-    display: flex;
-    justify-content: center;
-    flex-direction: column; 
-    align-items: center;
-}
-ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-ul li
-{
-    margin: 5px 0;
-    padding: 5px;
-    background-color: white;
-    text-align: center;
-}
-
-ul li:hover
-{
-    background-color: rgb(3, 74, 101);
-    color: white;
-}
-
-h1
-{
-    text-align: left;
-    font-family: Verdana;
-    margin-left: 160px;
-}
-
-div.mitte
-{
-  display: flex;
-  flex: 1;
-  border: solid 1px;
-}
-
-nav {
-    order: -1;
-}
-
-a:link
-{
-    margin: 8px 0;
-    padding: 8px;
-    background-color: white;
-    text-align: center;
-    min-width: 120px;
-    display: inline-block;
-}
-
-a:first-of-type
-{
-    margin-top: 0;
-}
-
-#wrap
-{
-    max-width: 660px;
-    height: 400px;
-    margin: 50px auto;
-}
-
-nav{flex: 1; order: 1;}
-main{flex: 5; display:flex; order: 2;}
-section{flex: 1;} */
