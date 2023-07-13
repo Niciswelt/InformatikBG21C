@@ -4,7 +4,7 @@ html, body {
   
   body {
     background-color: lightgrey;
-    display: flex;
+    /*display: flex;*/
     flex-flow: column;
     line-height: 1.3em;
   }
