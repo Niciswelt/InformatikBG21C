@@ -1,0 +1,165 @@
+html, body {
+    height: 100vh;
+  }
+  
+  body {
+    background-color: lightgrey;
+    display: flex;
+    flex-flow: column;
+    line-height: 1.3em;
+  }
+  
+  figure {
+    display: flex;
+    /*justify-content: center;*/
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  ul li:hover {
+    background-color: rgb(3, 74, 101);
+    color: white;
+  }
+  
+  h1 {
+    text-align: left;
+    font-family: Verdana;
+    margin-left: 190px;
+  }
+  
+  #mitte {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav {
+      flex:1; 
+      margin-top: 15px;
+  }
+  
+  main {
+      flex:5; 
+      display:flex; 
+      /*justify-content:center;*/
+      align-items: flex-start; 
+      order:2; 
+  }
+  
+  section{flex:1;}
+  
+  a:link {
+      margin:2px 0; 
+      padding:2px; 
+      background-color:white; 
+      text-align:center; 
+      min-width:170px; 
+      display:inline-block; 
+  }
+  
+  a:first-of-type {margin-top:0;}
+  
+  #wrap {
+      /*max-width:660px;*/ 
+      height:100vh; 
+      margin:auto; 
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+
+
+/*body
+{
+  display: flex;
+  flex-flow: column;
+  line-height: 1.5em;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li
+{
+    margin: 5px 0;
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+}
+
+ul li:hover
+{
+    background-color: rgb(3, 74, 101);
+    color: white;
+}
+
+h1
+{
+    text-align: left;
+    font-family: Verdana;
+    margin-left: 160px;
+}
+
+div.mitte
+{
+  display: flex;
+  flex: 1;
+  border: solid 1px;
+}
+
+nav {
+    order: -1;
+}
+
+a:link
+{
+    margin: 8px 0;
+    padding: 8px;
+    background-color: white;
+    text-align: center;
+    min-width: 120px;
+    display: inline-block;
+}
+
+a:first-of-type
+{
+    margin-top: 0;
+}
+
+#wrap
+{
+    max-width: 660px;
+    height: 400px;
+    margin: 50px auto;
+}
+
+nav{flex: 1; order: 1;}
+main{flex: 5; display:flex; order: 2;}
+section{flex: 1;} */
